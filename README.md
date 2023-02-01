@@ -2,19 +2,17 @@
 
 Vorrausetzung auf dem künftigen MasterNode
 
-      apt update
-      
-      
-  
-      apt install ssh curl 
+apt update
+
+apt install ssh curl 
   
 hostnamectl set-hostname <neuer Hostname> --> neustarten
 
 /etc/ssh/sshd.config
   
-    PermitRootLogin yes
+PermitRootLogin yes
 
-      systemctl restart ssh
+systemctl restart ssh
 
 ip a --> IP-Adresse notieren
 
