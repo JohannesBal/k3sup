@@ -22,10 +22,12 @@ Arbeitsrechner:
 /etc/hosts
 
 #ssh Schlüssel erzeugen
-      ssh-keygen
+  
+ssh-keygen
 
-#ssh-Schlüssel auf den MasterNode 
-      ssh-copy-id -i ./ssh/id_rsa master 
+#ssh-Schlüssel auf den MasterNode
+
+ssh-copy-id -i ./ssh/id_rsa master 
 
 #Installation arkade aus dem Git-Repository
 # https://github.com/alexellis/k3sup#create-a-multi-master-ha-setup-with-embedded-etcd
